@@ -95,6 +95,9 @@ header {
   line-height: 1.14;
   color: var(--main-text-cl);
 }
+.nav-link:hover {
+  color: var(--accent-cl);
+}
 .nav-adres {
   display: flex;
   margin-left: auto;
@@ -114,6 +117,9 @@ header {
   font-size: 14px;
   line-height: 1.15;
   color: var(--alt-text-cl);
+}
+.nav-adres-link:hover {
+  color: var(--accent-cl);
 }
 .nav-adres-link :hover {
   color: var(--accent-cl);
@@ -142,7 +148,14 @@ header {
   font-weight: 500;
   color: var(--title-cl);
 }
-
+.link-nav:hover {
+  color: var(--alt-title-cl);
+  background-color: var(--accent-cl);
+}
+.link-nav.link-akcent {
+  color: var(--alt-title-cl);
+  background-color: var(--accent-cl);
+}
 .item {
   margin-right: 8px;
 }
