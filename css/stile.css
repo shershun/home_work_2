@@ -26,6 +26,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
+  background-color: var(--alt-title-cl);
 }
 /*Навигация*/
 .list {
@@ -36,12 +37,10 @@ body {
 .nav-container {
   width: 1170px;
   margin: 0 auto;
-  padding: 0 15px;
 }
 .container {
   width: 1170px;
   margin: 0 auto;
-  padding: 0 15px;
 }
 .container_Flex {
   display: flex;
@@ -222,7 +221,12 @@ body {
 }
 
 /*Чем мы занимаемся*/
+.wedoing-box {
+  width: 1170px;
+  margin: 0 auto;
 
+  padding-bottom: 94px;
+}
 .wedoing-title {
   display: block;
   margin-bottom: 50px;
@@ -250,15 +254,15 @@ body {
 }
 /*Наша команда */
 .team-section {
-  width: auto;
   background-color: var(--second-bg);
 }
 .team-container {
   width: 1170px;
   margin: 0 auto;
-  padding: 0 15px;
+
   padding-top: 94px;
   padding-bottom: 94px;
+  background-color: var(--second-bg);
 }
 .team-title {
   display: block;
@@ -279,13 +283,13 @@ body {
   margin-right: 30px;
   box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
     0px 2px 1px rgb(0 0 0 / 20%);
+  background-color: var(--alt-title-cl);
 }
 .team-img:last-child {
   margin-right: 0px;
 }
 .team-img-box {
   display: flex;
-  background-color: var(--alt-title-cl);
 }
 .team-icon {
   display: flex;
@@ -333,6 +337,57 @@ body {
   text-align: center;
   color: var(--alt-text-cl);
 }
+/*Постоянные клиенты*/
+
+.client-box {
+  width: 1170px;
+  margin: 0 auto;
+}
+.client-title {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 94px;
+  margin-bottom: 50px;
+
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-cl);
+}
+.client-conteiner {
+  display: flex;
+  margin-bottom: 94px;
+}
+.client-item {
+}
+.client-item:not(:last-child) {
+  margin-right: 30px;
+}
+.client-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  padding: 16px 32px 16px 32px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.client-svg {
+  width: 106px;
+  height: 60px;
+  fill: #afb1b8;
+}
+.client-link:hover {
+  border: 1px solid #2196f3;
+}
+.client-svg:hover {
+  fill: var(--accent-cl);
+}
+
 /*Футер*/
 .footer {
   background-color: var(--dark-bg);
@@ -341,6 +396,7 @@ body {
   width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
+  display: flex;
 }
 .footer-bk {
   background-color: var(--dark-bg);
@@ -365,4 +421,6 @@ body {
 }
 .footer-link-margin:last-child {
   padding-bottom: 60px;
+}
+.footer-title {
 }

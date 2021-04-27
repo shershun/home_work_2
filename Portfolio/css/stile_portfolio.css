@@ -36,7 +36,6 @@ body {
 .nav-container {
   width: 1170px;
   margin: 0 auto;
-  padding: 0 15px;
 }
 header {
   border-bottom: 1px solid #ececec;
@@ -45,7 +44,6 @@ header {
 .container {
   width: 1170px;
   margin: 0 auto;
-  padding: 0 15px;
 }
 .container_Flex {
   display: flex;
@@ -128,7 +126,6 @@ header {
 .portfplio {
   width: 1170px;
   margin: 0 auto;
-  padding: 0 15px;
 }
 .portfplio-nav {
   list-style: none;
@@ -166,7 +163,6 @@ header {
 .examples-section {
   width: 1170px;
   margin: 0 auto;
-  padding: 0 15px;
 }
 .examples {
   display: flex;
@@ -213,7 +209,6 @@ header {
 .footer-container {
   width: 1170px;
   margin: 0 auto;
-  padding: 0 15px;
 }
 .footer-bk {
   background-color: var(--dark-bg);
